@@ -18,7 +18,7 @@ export async function getCart(): Promise<ShoppingCart | null> {
 
     if (!localCartId) {
         return null;
-    }
+    }  
 
     const cart = await prisma.cart.findUnique({
         where: { id: localCartId },

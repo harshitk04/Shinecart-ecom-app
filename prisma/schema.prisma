@@ -37,4 +37,3 @@ model CartItem {
 
   @@map("cartitems")
 }
- 
