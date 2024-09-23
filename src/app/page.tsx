@@ -10,7 +10,7 @@ export default async function Home (){
   return (
     <div>
       <div className="">
-        <div className="p-4 shadow-lg bg-slate-300 rounded-lg border-gray-400 flex flex-col lg:flex-row">
+        <div className="p-4 shadow-lg bg-sky-300 rounded-lg border-gray-400 flex flex-col lg:flex-row">
           <Image
             src={products[0].imageUrl}
             alt={products[0].name}
